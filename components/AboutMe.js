@@ -12,11 +12,11 @@ const AboutMe = () => {
                     <img src="profilePhoto.jpg" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
                 </div>
             </div>
-            <div className="">
-                <h1 className="flex justify-center text-lg md:text-2xl font-semibold">Carlos Espinosa</h1>
-                <h3 className="flex justify-center text-base md:text-xl font-semibold  mb-2"> Junior Developer / Petroleum Engineer  </h3>
-                <p className="">I am junior developer, currently studying on Mision-Tic 2021, I am crazy about programing in any language and learning everyday about how to improve my skills,  actually im looking to focus on one technology.</p>
-                <p className=""> I love Sports, Music, Drawing, Playing VideoGames, Football.
+            <div className="items-center flex flex-col">
+                <h1 className="text-lg md:text-2xl font-semibold">Carlos Espinosa</h1>
+                <h3 className="text-base md:text-xl font-semibold  mb-2"> Junior Developer / Petroleum Engineer  </h3>
+                <p className="md:w-3/5">I am junior developer, currently studying on Mision-Tic 2021, I am crazy about programing in any language and learning everyday about how to improve my skills,  actually im looking to focus on one technology.</p>
+                <p className="md:w-3/5"> I love Sports, Music, Drawing, Playing VideoGames, Football.
                 </p>
                 {/* <a href="/hireme"> Hire me </a> */}
             </div>

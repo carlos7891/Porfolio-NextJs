@@ -5,7 +5,7 @@ import {faDatabase} from '@fortawesome/free-solid-svg-icons'
 
 const Skills = () => {
     return (
-        <div id="skills" className="flex flex-col mt-5 mb-5">
+        <div id="skills" className="flex flex-col mt-5 mb-10">
             <h1 className="flex justify-center text-lg text-white md:text-2xl font-semibold pb-5">Technologies</h1>
             <ul className="flex flex-wrap md:flex-wrap-reverse justify-center">
                 <li>

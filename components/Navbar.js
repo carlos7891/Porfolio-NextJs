@@ -46,27 +46,22 @@ const Navbar = () => {
                     <Link href='#aboutme'>
                         <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white '>
                             About Me
-                    </a>
-                    </Link>
-                    <Link href='#projects'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
-                            Projects
-                    </a>
+                        </a>
                     </Link>
                     <Link href='#skills'>
                         <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
                             Skills
-                    </a>
+                        </a>
                     </Link>
-                    <Link href='#!'>
+                    <Link href='#projects'>
+                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
+                            Projects
+                        </a>
+                    </Link>
+                    <Link href='#footer'>
                         <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
                             Contact me
-                    </a>
-                    </Link>
-                    <Link href='#!'>
-                        <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-600 hover:text-white'>
-                            bio
-                    </a>
+                        </a>
                     </Link>
                 </div>
             </div>
