@@ -7,15 +7,15 @@ const Footer = () => {
         <footer id="footer" className="bg-gray-900 pt-6 pb-2 text-white mt-20">
             <div className="">
                 <ul className="flex flex-wrap md:flex-wrap-reverse justify-center">
-                    <li>
+                    {/* <li>
                         <a className="text-white hover:text-blue-600 text-3xl p-2" href="https://www.facebook.com/carlos.a.espinosa"><FontAwesomeIcon icon={faFacebookSquare} /></a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="text-white hover:text-blue-600 text-3xl p-2" href="https://contacts.google.com/person/c5350580638821619309?hl=es-419"><FontAwesomeIcon icon={faGoogle} /></a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="text-white hover:text-blue-600 text-3xl p-2" href="https://www.instagram.com/carlos07081/"><FontAwesomeIcon icon={faInstagramSquare} /></a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="text-white hover:text-blue-600 text-3xl p-2" href="https://www.linkedin.com/in/carlos-espinosa-39b329195/"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </li>

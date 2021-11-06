@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
 const AboutMe = () => {
     return (
@@ -15,8 +16,8 @@ const AboutMe = () => {
             <div className="items-center flex flex-col">
                 <h1 className="text-lg md:text-2xl font-semibold">Carlos Espinosa</h1>
                 <h3 className="text-base md:text-xl font-semibold  mb-2"> Junior Developer / Petroleum Engineer  </h3>
-                <p className="md:w-3/5">I am junior developer, currently studying on Mision-Tic 2021, I am crazy about programing in any language and learning everyday about how to improve my skills,  actually im looking to focus on one technology.</p>
-                <p className="md:w-3/5"> I love Sports, Music, Drawing, Playing VideoGames, Football.
+                <p className="md:w-3/5">I am junior developer, currently studying on Mision-Tic 2021, I am crazy about programing in any language and learning everyday about how to improve my skills, im looking to focus on one technology.</p>
+                <p className="md:w-3/5"> I <FontAwesomeIcon icon={faHeart} /> Sports, Music, Drawing, Playing VideoGames, Football.
                 </p>
                 {/* <a href="/hireme"> Hire me </a> */}
             </div>
